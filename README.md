@@ -1,4 +1,4 @@
 # LiveSweeper
 Code Test for LiveRamp
 
-[See running example here: ](https://builtbykyle.com/livesweeper/)
+### [See it in action!](https://builtbykyle.com/livesweeper/)
