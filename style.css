@@ -11,6 +11,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
+}
+#git_link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  background-color: #09f;
+  color: white;
+  transition: 0.15s all;
+}
+#git_link:hover {
+  background-color: #07d;
 }
 h1 {
   font-size: 2.5rem;
