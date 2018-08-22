@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RampSweeper</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+</head>
+<body>
+  
+  <a href="">View on GitHub</a>
+  
+  <main>
+   
+    <h1>LiveSweeper!</h1>
+   
+    <div id="board">
+    </div>
+    
+    <form id="form">
+     
+      <label for="input_rows">Rows: </label>
+      <input type="number" id="input_rows" value="10" min="1" max="10">
+      
+      <label for="input_cols">Columns: </label>
+      <input type="number" id="input_cols" value="10" min="1" max="10">
+      
+      <label for="input_mines">Mines: </label>
+      <input type="number" id="input_mines" value="10" min="1" max="99">
+      
+      <input type="submit" id="new_game" class="disabled" value="Reset">
+      
+    </form>
+    
+  </main>
+  
+  
+  
+  <div id="scripts">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+  </div>
+  
+  
+  
+</body>
+</html>
